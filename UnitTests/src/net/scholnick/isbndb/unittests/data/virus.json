@@ -1,0 +1,309 @@
+{
+   "result_count" : 1140,
+   "data" : [
+      {
+         "title_latin" : "Virus",
+         "publisher_name" : "New American Library",
+         "title" : "Virus",
+         "author_data" : [
+            {
+               "id" : "caine_peter",
+               "name" : "Caine, Peter"
+            }
+         ],
+         "dewey_normal" : "0",
+         "lcc_number" : "",
+         "publisher_id" : "new_american_library",
+         "physical_description_text" : "333 p. ; 18 cm.",
+         "publisher_text" : "New York : New American Library, c1989.",
+         "isbn13" : "9780451401441",
+         "title_long" : "",
+         "language" : "eng",
+         "urls_text" : "",
+         "awards_text" : "",
+         "book_id" : "virus_a01",
+         "dewey_decimal" : "",
+         "marc_enc_level" : "i",
+         "isbn10" : "0451401441",
+         "summary" : "",
+         "edition_info" : "(pbk.) :$4.50",
+         "notes" : "An Onyx Book.",
+         "subject_ids" : []
+      },
+      {
+         "edition_info" : "(pbk.) :$3.99",
+         "summary" : "",
+         "subject_ids" : [],
+         "notes" : "",
+         "urls_text" : "",
+         "language" : "eng",
+         "isbn10" : "0590543229",
+         "marc_enc_level" : "i",
+         "book_id" : "virus_a03",
+         "dewey_decimal" : "",
+         "awards_text" : "",
+         "lcc_number" : "",
+         "isbn13" : "9780590543224",
+         "title_long" : "",
+         "physical_description_text" : "278 p. ; 18 cm.",
+         "publisher_text" : "New York : Scholastic, c1996.",
+         "publisher_id" : "scholastic",
+         "publisher_name" : "Scholastic",
+         "title_latin" : "Virus",
+         "author_data" : [
+            {
+               "name" : "Hoh, Diane",
+               "id" : "hoh_diane"
+            }
+         ],
+         "dewey_normal" : "0",
+         "title" : "Virus"
+      },
+      {
+         "summary" : "",
+         "edition_info" : "",
+         "subject_ids" : [
+            "science_fiction",
+            "movie_novels"
+         ],
+         "notes" : "\"A Tom Doherty Associates Book.\"",
+         "urls_text" : "",
+         "language" : "eng",
+         "book_id" : "virus_a04",
+         "dewey_decimal" : "",
+         "isbn10" : "0812541588",
+         "marc_enc_level" : "i",
+         "awards_text" : "",
+         "lcc_number" : "",
+         "isbn13" : "9780812541588",
+         "title_long" : "",
+         "publisher_id" : "tor",
+         "publisher_text" : "New York : TOR, c1998.",
+         "physical_description_text" : "vii, 248 p. ; 18 cm.",
+         "title_latin" : "Virus",
+         "publisher_name" : "TOR",
+         "author_data" : [
+            {
+               "id" : "perry_s_v",
+               "name" : "Perry, S. V."
+            },
+            {
+               "id" : "pfaffer_chuck",
+               "name" : "Pfaffer, Chuck"
+            },
+            {
+               "id" : "feldman_dennis",
+               "name" : "Feldman, Dennis"
+            }
+         ],
+         "title" : "Virus",
+         "dewey_normal" : "0"
+      },
+      {
+         "lcc_number" : "",
+         "physical_description_text" : "432 pages",
+         "publisher_text" : "Jove Books",
+         "publisher_id" : "jove_books",
+         "isbn13" : "9780515120110",
+         "title_long" : "",
+         "publisher_name" : "Jove Books",
+         "title_latin" : "Virus",
+         "author_data" : [
+            {
+               "id" : "buchanan_bill",
+               "name" : "Buchanan, Bill"
+            }
+         ],
+         "title" : "Virus",
+         "dewey_normal" : "0",
+         "edition_info" : "Paperback; 1997-02",
+         "summary" : "",
+         "notes" : "",
+         "subject_ids" : [],
+         "language" : "",
+         "urls_text" : "",
+         "awards_text" : "",
+         "marc_enc_level" : "~",
+         "isbn10" : "0515120111",
+         "book_id" : "virus_a06",
+         "dewey_decimal" : ""
+      },
+      {
+         "lcc_number" : "",
+         "isbn13" : "9780688090647",
+         "title_long" : "",
+         "publisher_id" : "w_morrow",
+         "publisher_text" : "New York : W. Morrow, c1991.",
+         "physical_description_text" : "312 p. ; 25 cm.",
+         "title_latin" : "Virus",
+         "publisher_name" : "W. Morrow",
+         "dewey_normal" : "813.54",
+         "author_data" : [
+            {
+               "name" : "Harrington, William",
+               "id" : "harrington_william"
+            }
+         ],
+         "title" : "Virus",
+         "summary" : "",
+         "edition_info" : "(acid-free) :$19.95",
+         "subject_ids" : [],
+         "notes" : "",
+         "urls_text" : "",
+         "language" : "eng",
+         "dewey_decimal" : "813/.54",
+         "book_id" : "virus_a05",
+         "isbn10" : "0688090648",
+         "marc_enc_level" : "^",
+         "awards_text" : ""
+      },
+      {
+         "lcc_number" : "",
+         "isbn13" : "9780312960032",
+         "title_long" : "",
+         "publisher_text" : "St. Martin's Press",
+         "physical_description_text" : "",
+         "publisher_id" : "st_martins_press",
+         "title_latin" : "Virus",
+         "publisher_name" : "St. Martin's Press",
+         "author_data" : [
+            {
+               "name" : "Watkins, Graham",
+               "id" : "watkins_graham"
+            }
+         ],
+         "title" : "Virus",
+         "dewey_normal" : "813.54",
+         "edition_info" : "Mass Market Paperback; 1996-08",
+         "summary" : "",
+         "subject_ids" : [],
+         "notes" : "",
+         "urls_text" : "",
+         "language" : "",
+         "isbn10" : "0312960034",
+         "marc_enc_level" : "~",
+         "dewey_decimal" : "813.54",
+         "book_id" : "virus_a11",
+         "awards_text" : ""
+      },
+      {
+         "notes" : "",
+         "subject_ids" : [],
+         "edition_info" : "Audio CD; 2001-10-31",
+         "summary" : "",
+         "awards_text" : "",
+         "isbn10" : "6306694137",
+         "marc_enc_level" : "~",
+         "dewey_decimal" : "",
+         "book_id" : "virus_a09",
+         "language" : "",
+         "urls_text" : "",
+         "physical_description_text" : "",
+         "publisher_text" : "BLACK MARKET RECORDS",
+         "publisher_id" : "black_market_records",
+         "title_long" : "",
+         "isbn13" : "9786306694136",
+         "lcc_number" : "",
+         "title" : "Virus",
+         "author_data" : [
+            {
+               "name" : "Brotha Lynch Hung Cdbmr 8676",
+               "id" : "brotha_lynch_hung_cdbmr_8676"
+            }
+         ],
+         "dewey_normal" : "0",
+         "title_latin" : "Virus",
+         "publisher_name" : "BLACK MARKET RECORDS"
+      },
+      {
+         "lcc_number" : "",
+         "title_long" : "",
+         "isbn13" : "9781569711040",
+         "publisher_id" : "dark_horse_comics",
+         "publisher_text" : "Dark Horse Comics",
+         "physical_description_text" : "136 pages",
+         "publisher_name" : "Dark Horse Comics",
+         "title_latin" : "Virus",
+         "title" : "Virus",
+         "author_data" : [
+            {
+               "id" : "pfarrer_chuck",
+               "name" : "Pfarrer, Chuck"
+            }
+         ],
+         "dewey_normal" : "0",
+         "summary" : "When The Electra runs across an abandoned Chinese radar ship adrift in the Pacific, the crew members plan to lay claim to the ship and the millions of dollars worth of top-secret electronics on it! However, collecting on those millions is easier said than done. The Wan Xuan may be abandoned, but it`s far from deserted. Something is alive inside the ship`s computers, and it`s building monstrous bodies for itself from pieces of machinery and the corpses of the hapless Chinese crew!",
+         "edition_info" : "Paperback; 1995-06",
+         "subject_ids" : [],
+         "notes" : "",
+         "urls_text" : "",
+         "language" : "",
+         "dewey_decimal" : "",
+         "book_id" : "virus_a12",
+         "marc_enc_level" : "~",
+         "isbn10" : "1569711046",
+         "awards_text" : ""
+      },
+      {
+         "publisher_name" : "Underwhich Editions",
+         "title_latin" : "Virus",
+         "title" : "Virus",
+         "author_data" : [
+            {
+               "id" : "smith_jim_q",
+               "name" : "Smith, Jim Q."
+            }
+         ],
+         "dewey_normal" : "0",
+         "lcc_number" : "",
+         "publisher_id" : "underwhich_editions",
+         "publisher_text" : "Toronto : Underwhich Editions, c1983.",
+         "physical_description_text" : "A-O p. ; 13 x 18 cm.",
+         "isbn13" : "9780886580285",
+         "title_long" : "",
+         "language" : "eng",
+         "urls_text" : "",
+         "awards_text" : "",
+         "book_id" : "virus_a13",
+         "dewey_decimal" : "",
+         "marc_enc_level" : "",
+         "isbn10" : "0886580285",
+         "summary" : "",
+         "edition_info" : "$5.00",
+         "notes" : "",
+         "subject_ids" : []
+      },
+      {
+         "summary" : "",
+         "edition_info" : "Paperback; 1988-09-01",
+         "notes" : "",
+         "subject_ids" : [],
+         "language" : "",
+         "urls_text" : "",
+         "awards_text" : "",
+         "dewey_decimal" : "",
+         "book_id" : "virus_a08",
+         "marc_enc_level" : "~",
+         "isbn10" : "2253047147",
+         "lcc_number" : "",
+         "publisher_id" : "lgf",
+         "physical_description_text" : "",
+         "publisher_text" : "LGF",
+         "title_long" : "",
+         "isbn13" : "9782253047148",
+         "title_latin" : "Virus",
+         "publisher_name" : "LGF",
+         "author_data" : [
+            {
+               "name" : "Cook, Robin",
+               "id" : "cook_robin"
+            }
+         ],
+         "dewey_normal" : "0",
+         "title" : "Virus"
+      }
+   ],
+   "index_searched" : "title",
+   "current_page" : 1,
+   "page_count" : 114
+}

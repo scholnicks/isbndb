@@ -1,0 +1,46 @@
+{
+   "data" : [
+      {
+         "awards_text" : "",
+         "isbn10" : "0684853507",
+         "subject_ids" : [
+            "authors_maine_fiction",
+            "writers_block_maine_fiction",
+            "widowers_maine_fiction",
+            "widows_maine_fiction",
+            "custody_of_children_maine_fiction",
+            "grandfathers_maine_fiction",
+            "maine_fiction",
+            "ghost_stories"
+         ],
+         "marc_enc_level" : "",
+         "edition_info" : "",
+         "publisher_text" : "New York : Scribner, c1998.",
+         "dewey_decimal" : "813/.54",
+         "publisher_name" : "Scribner",
+         "urls_text" : "",
+         "lcc_number" : "PS3561",
+         "title_long" : "",
+         "summary" : "",
+         "title" : "Bag of bones",
+         "physical_description_text" : "529 p. ; 25 cm.",
+         "title_latin" : "Bag of bones",
+         "language" : "eng",
+         "dewey_normal" : "813.54",
+         "isbn13" : "9780684853505",
+         "author_data" : [
+            {
+               "id" : "king_stephen_harris_morley",
+               "name" : "King, Stephen Harris Morley"
+            }
+         ],
+         "notes" : "",
+         "publisher_id" : "scribner",
+         "book_id" : "bag_of_bones_a01"
+      }
+   ],
+   "index_searched" : "title",
+   "result_count" : 38,
+   "current_page" : 1,
+   "page_count" : 4
+}

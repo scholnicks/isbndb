@@ -1,4 +1,9 @@
 *.class
+*/bin/*
+.metadata
+RemoteSystemsTempFiles
+isbndb.properties
+
 
 # Package Files #
 *.jar

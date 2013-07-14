@@ -1,0 +1,350 @@
+{
+   "data" : [
+      {
+         "awards_text" : "",
+         "isbn10" : "0684853507",
+         "subject_ids" : [
+            "authors_maine_fiction",
+            "writers_block_maine_fiction",
+            "widowers_maine_fiction",
+            "widows_maine_fiction",
+            "custody_of_children_maine_fiction",
+            "grandfathers_maine_fiction",
+            "maine_fiction",
+            "ghost_stories"
+         ],
+         "marc_enc_level" : "",
+         "edition_info" : "",
+         "publisher_text" : "New York : Scribner, c1998.",
+         "dewey_decimal" : "813/.54",
+         "publisher_name" : "Scribner",
+         "urls_text" : "",
+         "lcc_number" : "PS3561",
+         "title_long" : "",
+         "summary" : "",
+         "title" : "Bag of bones",
+         "physical_description_text" : "529 p. ; 25 cm.",
+         "title_latin" : "Bag of bones",
+         "language" : "eng",
+         "dewey_normal" : "813.54",
+         "isbn13" : "9780684853505",
+         "author_data" : [
+            {
+               "id" : "king_stephen_harris_morley",
+               "name" : "King, Stephen Harris Morley"
+            }
+         ],
+         "notes" : "",
+         "publisher_id" : "scribner",
+         "book_id" : "bag_of_bones_a01"
+      },
+      {
+         "dewey_decimal" : "",
+         "publisher_text" : "New York Pocket Books 1999.",
+         "edition_info" : "(pbk.)",
+         "marc_enc_level" : "",
+         "subject_ids" : [
+            "authors_maine_fiction",
+            "widowers_maine_fiction",
+            "widows_maine_fiction",
+            "custody_of_children_maine_fiction",
+            "grandfathers_maine_fiction",
+            "maine_fiction",
+            "authors_fiction",
+            "ghost_stories"
+         ],
+         "isbn10" : "067102423X",
+         "awards_text" : "",
+         "title_long" : "",
+         "lcc_number" : "",
+         "urls_text" : "",
+         "publisher_name" : "Pocket Books",
+         "dewey_normal" : "0",
+         "language" : "eng",
+         "physical_description_text" : "732 p. ; 18 cm.",
+         "title_latin" : "Bag of bones",
+         "title" : "Bag of bones",
+         "summary" : "",
+         "book_id" : "bag_of_bones",
+         "publisher_id" : "pocket_books",
+         "notes" : "Originally published: New York : Scribner, 1998.",
+         "author_data" : [
+            {
+               "name" : "King, Stephen Harris Morley",
+               "id" : "king_stephen_harris_morley"
+            }
+         ],
+         "isbn13" : "9780671024239"
+      },
+      {
+         "lcc_number" : "",
+         "publisher_name" : "New English Library/Hodder & Stoughton",
+         "urls_text" : "",
+         "title_long" : "",
+         "subject_ids" : [
+            "horror_tales"
+         ],
+         "marc_enc_level" : "8",
+         "edition_info" : "(pbk.) :£6.99",
+         "publisher_text" : "London : New English Library/Hodder & Stoughton, 1999.",
+         "dewey_decimal" : "813.54",
+         "awards_text" : "",
+         "isbn10" : "034071820X",
+         "notes" : "",
+         "publisher_id" : "new_english_library_hodder_sto",
+         "book_id" : "bag_of_bones_a02",
+         "isbn13" : "9780340718209",
+         "author_data" : [
+            {
+               "id" : "king_stephen_harris_morley",
+               "name" : "King, Stephen Harris Morley"
+            }
+         ],
+         "dewey_normal" : "813.54",
+         "summary" : "",
+         "title_latin" : "Bag of bones",
+         "physical_description_text" : "736 p. ; 18 cm.",
+         "title" : "Bag of bones",
+         "language" : "eng"
+      },
+      {
+         "dewey_normal" : "0",
+         "language" : "eng",
+         "physical_description_text" : "",
+         "title_latin" : "Bag of bones",
+         "title" : "Bag of bones",
+         "summary" : "",
+         "book_id" : "bag_of_bones_a04",
+         "publisher_id" : "hodder_stoughton",
+         "notes" : "Limited ed. of 2,000 numbered copies.",
+         "author_data" : [
+            {
+               "id" : "king_stephen_harris_morley",
+               "name" : "King, Stephen Harris Morley"
+            }
+         ],
+         "isbn13" : "9780340718193",
+         "dewey_decimal" : "",
+         "publisher_text" : "London : Hodder & Stoughton, 1998.",
+         "edition_info" : "",
+         "subject_ids" : [],
+         "marc_enc_level" : "",
+         "isbn10" : "0340718196",
+         "awards_text" : "",
+         "title_long" : "",
+         "urls_text" : "",
+         "lcc_number" : "",
+         "publisher_name" : "Hodder & Stoughton"
+      },
+      {
+         "dewey_normal" : "0",
+         "title_latin" : "Bag of bones",
+         "title" : "Bag of bones",
+         "physical_description_text" : "16 sound cassettes (22 hr.) analog, stereo., Dolby processed.",
+         "language" : "eng",
+         "summary" : "A widowed novelist with writer's block returns to his family's summer home, where he becomes involved in a custody dispute, discovers his house is haunted, and mysteriously regains his ability to write.",
+         "book_id" : "bag_of_bones_a03",
+         "notes" : "Read by the author.",
+         "publisher_id" : "simon_schuster_audio",
+         "author_data" : [
+            {
+               "name" : "King, Stephen Harris Morley",
+               "id" : "king_stephen_harris_morley"
+            }
+         ],
+         "isbn13" : "9780671582340",
+         "publisher_text" : "New York, NY : Simon & Schuster Audio, p1998.",
+         "dewey_decimal" : "",
+         "subject_ids" : [
+            "authors_fiction_sound_recordings",
+            "writers_block_fiction_sound_recordings",
+            "widowers_fiction_sound_recordings",
+            "widows_fiction_sound_recordings",
+            "custody_of_children_fiction_sound_recordings",
+            "grandfathers_fiction_sound_recordings",
+            "ghost_stories_sound_recordings",
+            "audiobooks_fiction",
+            "maine_fiction_sound_recordings"
+         ],
+         "marc_enc_level" : "",
+         "edition_info" : "",
+         "awards_text" : "",
+         "isbn10" : "0671582348",
+         "title_long" : "",
+         "publisher_name" : "Simon & Schuster Audio",
+         "urls_text" : "http://mediabook.library.unt.edu/login.php?marc099=Ph-tape 1264&marc245=Bag of bones Faculty: Book this item for a class",
+         "lcc_number" : ""
+      },
+      {
+         "lcc_number" : "",
+         "publisher_name" : "Simon & Schuster Audio",
+         "urls_text" : "",
+         "title_long" : "",
+         "awards_text" : "",
+         "isbn10" : "0743551753",
+         "marc_enc_level" : "~",
+         "subject_ids" : [
+            "literature_fiction_genre_fiction_horror",
+            "mystery_thrillers_thrillers_suspense"
+         ],
+         "edition_info" : "Audio CD; 2005-06-27",
+         "publisher_text" : "Simon & Schuster Audio",
+         "dewey_decimal" : "813",
+         "isbn13" : "9780743551755",
+         "author_data" : [
+            {
+               "name" : "King, Stephen Harris Morley",
+               "id" : "king_stephen_harris_morley"
+            }
+         ],
+         "notes" : "",
+         "publisher_id" : "simon_schuster_audio",
+         "book_id" : "bag_of_bones_a17",
+         "summary" : "INCLUDES AN EXCLUSIVE INTERVIEW WITH STEPHEN KINGBag of Bones recounts the plight of bestselling novelist Mike Noonan, who is unable to stop grieving even four years after the sudden death of his wife. His nights are plagued by vivid nightmares of their house by the lake. Despite these dreams, or perhaps because of them, Mike finally returns to Sara Laughs, the Noonan's isolated summer home.He finds his beloved Yankee town familiar on its surface, but much changed underneath -- held in the grip of a powerful millionaire, who seeks to take his three-year-old granddaughter away from her widowed young mother. As Mike is drawn into their struggle, as he falls in love with both of them, he is drawn into the mystery of Sara Laughs, now the site of ghostly visitations, ever -- escalating nightmares, and the sudden recovery of his writing ability. What are the forces that have been unleashed here -- and what do they want of Mike Noonan?",
+         "physical_description_text" : "5.2\"x6.1\"x2.2\"; 1.2 lb",
+         "title_latin" : "Bag Of Bones",
+         "title" : "Bag Of Bones",
+         "language" : "",
+         "dewey_normal" : "813"
+      },
+      {
+         "lcc_number" : "",
+         "urls_text" : "",
+         "publisher_name" : "Simon & Schuster Audio",
+         "title_long" : "",
+         "isbn10" : "0671043064",
+         "awards_text" : "",
+         "edition_info" : "Audio CD; 1998-09-01",
+         "marc_enc_level" : "~",
+         "subject_ids" : [
+            "literature_fiction_genre_fiction_horror",
+            "mystery_thrillers_thrillers_suspense"
+         ],
+         "dewey_decimal" : "813.54",
+         "publisher_text" : "Simon & Schuster Audio",
+         "isbn13" : "9780671043063",
+         "author_data" : [
+            {
+               "name" : "King, Stephen Harris Morley",
+               "id" : "king_stephen_harris_morley"
+            }
+         ],
+         "publisher_id" : "simon_schuster_audio",
+         "notes" : "",
+         "book_id" : "bag_of_bones_a16",
+         "summary" : "Stephen King's most gripping and unforgettable novel, Bag of Bones, is a story of grief and lost love's enduring bonds, of a new love haunted by the secrets of the past, of an innocent child caught in a terrible crossfire. Set in the Maine territory King has made mythic, Bag of Bones recounts the plight of forty-year-old bestselling novelist Mike Noonan, who is unable to stop grieving even four years after the sudden death of his wife, Jo, and who can no longer hear to face the blank screen of his word processor. Now his nights are plagued by vivid nightmares of the house by the lake. Despite these dreams, or perhaps because of them, Mike finally returns to Sara Laughs, the Noonan's isolated summer home. He finds his beloved Yankee town familiar on its surface, but much changed underneath -- held in the grip of a powerful millionaire, Max Devore, who twists the very fabric of the community to his purpose: to take his three-year-old granddaughter away from her widowed young mother. As Mike is drawn into their struggle, as he falls in love with both of them, he is also drawn into the mystery of Sara Laughs, now the site of ghostly visitations, ever-escalating nightmares, and the sudden recovery of his writing ability. What are the forces that have been unleashed here -- and what do they want of Mike Noonan? As vivid and enthralling as King's most enduring works, Bag of Bones resonates with what Amy Tan calls \"the witty and obsessive voice of King's powerful imagination.\" It's no secret that King is our most mesmerizing storyteller. In Bag of Bones -- described by Gloria Naylor as \"a love story about the dark places within us all\" -- he proves to be one of our most moving.",
+         "language" : "",
+         "title_latin" : "Bag Of Bones",
+         "physical_description_text" : "5.9\"x6.5\"x1.9\"; 1.5 lb",
+         "title" : "Bag Of Bones",
+         "dewey_normal" : "813.54"
+      },
+      {
+         "book_id" : "bag_of_bones_a06",
+         "notes" : "",
+         "publisher_id" : "hodder_and_stoughton_ltd",
+         "author_data" : [
+            {
+               "name" : "King, Stephen Harris Morley",
+               "id" : "king_stephen_harris_morley"
+            }
+         ],
+         "isbn13" : "9780340951422",
+         "dewey_normal" : "0",
+         "physical_description_text" : "4.4\"x6.9\"x1.7\"; 0.8 lb; 672 pages",
+         "title" : "Bag of Bones",
+         "title_latin" : "Bag of Bones",
+         "language" : "",
+         "summary" : "",
+         "title_long" : "",
+         "lcc_number" : "",
+         "urls_text" : "",
+         "publisher_name" : "Hodder And Stoughton Ltd",
+         "publisher_text" : "Hodder And Stoughton Ltd.",
+         "dewey_decimal" : "",
+         "subject_ids" : [
+            "literature_fiction_contemporary"
+         ],
+         "marc_enc_level" : "~",
+         "edition_info" : "Paperback; 2007-06-30",
+         "awards_text" : "",
+         "isbn10" : "0340951427"
+      },
+      {
+         "dewey_normal" : "0",
+         "summary" : "",
+         "language" : "",
+         "physical_description_text" : "1.8 lb; 516 pages",
+         "title" : "Bag of Bones",
+         "title_latin" : "Bag of Bones",
+         "publisher_id" : "hodder_stoughton_ltd",
+         "notes" : "",
+         "book_id" : "bag_of_bones_a10",
+         "isbn13" : "9780340718735",
+         "author_data" : [
+            {
+               "id" : "king_stephen_harris_morley",
+               "name" : "King, Stephen Harris Morley"
+            }
+         ],
+         "edition_info" : "Paperback; 1998-08-06",
+         "subject_ids" : [
+            "literature_fiction_genre_fiction_horror",
+            "literature_fiction_authors_a_z_k_king_stephen_general",
+            "literature_fiction_authors_a_z_k_king_stephen_paperback",
+            "mystery_thrillers_general"
+         ],
+         "marc_enc_level" : "~",
+         "dewey_decimal" : "",
+         "publisher_text" : "Hodder & Stoughton Ltd",
+         "isbn10" : "0340718730",
+         "awards_text" : "",
+         "publisher_name" : "Hodder & Stoughton Ltd",
+         "urls_text" : "",
+         "lcc_number" : "",
+         "title_long" : ""
+      },
+      {
+         "book_id" : "bag_of_bones_a07",
+         "publisher_id" : "thorndike_press",
+         "notes" : "\"Thorndike large print Basic series\"--T.p. verso.",
+         "author_data" : [
+            {
+               "id" : "king_stephen_harris_morley",
+               "name" : "King, Stephen Harris Morley"
+            }
+         ],
+         "isbn13" : "9780786217205",
+         "dewey_normal" : "813.54",
+         "language" : "eng",
+         "title_latin" : "Bag of bones",
+         "title" : "Bag of bones",
+         "physical_description_text" : "901 p. (large print) ; 23 cm.",
+         "summary" : "",
+         "title_long" : "",
+         "publisher_name" : "Thorndike Press",
+         "urls_text" : "",
+         "lcc_number" : "",
+         "dewey_decimal" : "813/.54",
+         "publisher_text" : "Thorndike, Me. : Thorndike Press, 1999.",
+         "edition_info" : "(lg. print : hc : alk. paper)",
+         "subject_ids" : [
+            "authors_fiction",
+            "widowers_maine_fiction",
+            "widows_maine_fiction",
+            "custody_of_children_maine_fiction",
+            "grandfathers_maine_fiction",
+            "maine_fiction",
+            "large_type_books",
+            "ghost_stories"
+         ],
+         "marc_enc_level" : "",
+         "isbn10" : "0786217200",
+         "awards_text" : ""
+      }
+   ],
+   "index_searched" : "title",
+   "result_count" : 38,
+   "current_page" : 1,
+   "page_count" : 4
+}
