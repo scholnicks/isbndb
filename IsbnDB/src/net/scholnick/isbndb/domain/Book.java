@@ -7,6 +7,11 @@ import org.apache.commons.lang.builder.ToStringBuilder;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+/**
+ * Book is a single instance of book data
+ * 
+ * @author Steve Scholnick <steve@scholnick.net>
+ */
 @JsonIgnoreProperties(ignoreUnknown = true)
 public final class Book {
 	@JsonProperty("title_latin")               private String title;

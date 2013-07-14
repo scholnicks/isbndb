@@ -2,6 +2,11 @@ package net.scholnick.isbndb.domain;
 
 import org.apache.commons.lang.builder.ToStringBuilder;
 
+/**
+ * Author of a book
+ * 
+ * @author Steve Scholnick <steve@scholnick.net>
+ */
 public final class Author {
 	private String id;
 	private String name;

@@ -7,10 +7,16 @@ import java.net.URL;
 import java.util.List;
 
 import net.scholnick.isbndb.BooksProxy;
+import net.scholnick.isbndb.domain.Author;
 import net.scholnick.isbndb.domain.Book;
 
 import org.junit.Test;
 
+/**
+ * UnitTests
+ * 
+ * @author Steve Scholnick <steve@scholnick.net>
+ */
 public final class BookTestCase {
 	@Test
 	public void singleBookTitle() throws IOException {
@@ -35,7 +41,29 @@ public final class BookTestCase {
 	@Test
 	public void downloadBooks() throws Exception {
 		List<Book> books = BooksProxy.getInstance().getBooks("virus");
-		assertEquals(10, books.size());
+		assertFalse( books.isEmpty() );
+	}
+
+	@Test
+	public void downloadBookByAuthorId() throws Exception {
+		Author a = new Author();
+		a.setId("steve_berry");
+		List<Book> books = BooksProxy.getInstance().getBooks(a);
+		assertFalse( books.isEmpty() );
+	}
+
+	@Test
+	public void downloadBookByAuthorName() throws Exception {
+		Author a = new Author();
+		a.setName("steve berry");
+		List<Book> books = BooksProxy.getInstance().getBooks(a);
+		assertFalse( books.isEmpty() );
+	}
+	
+	@Test
+	public void downloadBookByISBN() throws Exception {
+		Book book = BooksProxy.getInstance().getBookByISBN("9780684853505");
+		assertEquals("Bag of bones", book.getTitle());
 	}
 	
 	@Test

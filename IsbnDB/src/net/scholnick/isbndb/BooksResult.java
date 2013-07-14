@@ -8,8 +8,13 @@ import org.apache.commons.lang.builder.ToStringBuilder;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
+/**
+ * BooksResult holds all of the data returned by the REST call
+ * 
+ * @author Steve Scholnick <steve@scholnick.net>
+ */
 @JsonIgnoreProperties(ignoreUnknown = true)
-public final class BooksResult {
+final class BooksResult {
 	private List<Book> data;
 
 	public List<Book> getData() {
