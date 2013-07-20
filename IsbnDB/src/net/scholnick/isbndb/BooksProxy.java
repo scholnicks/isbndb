@@ -1,6 +1,7 @@
 package net.scholnick.isbndb;
 
 import java.io.IOException;
+import java.io.InputStream;
 import java.net.MalformedURLException;
 import java.net.URI;
 import java.net.URISyntaxException;
@@ -18,7 +19,8 @@ import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 /**
- * BooksProxy handles all interactions with the isbndb.com REST API.
+ * BooksProxy handles all interactions with the isbndb.com REST API. Queries to isbndb are spaced out by waitInterval, 
+ * which defaults to 1 second. 
  * 
  * @author Steve Scholnick <steve@scholnick.net>
  */
@@ -38,6 +40,26 @@ public final class BooksProxy {
 		return INSTANCE;
 	}
 	
+	/** Returns the developer key */
+	public String getDeveloperKey() {
+		return developerKey;
+	}
+
+	/** Sets the developer key */
+	public void setDeveloperKey(String developerKey) {
+		this.developerKey = developerKey;
+	}
+
+	/** Returns the wait interval */
+	public Long getWaitInterval() {
+		return waitInterval;
+	}
+
+	/** Sets the wait interval */
+	public void setWaitInterval(Long waitInterval) {
+		this.waitInterval = waitInterval;
+	}
+
 	/**
 	 * Returns all of the {@link Book}s for an {@link Author}
 	 * 
@@ -145,21 +167,27 @@ public final class BooksProxy {
 		}
 	}
 	
+	/** Private Constructor */
 	private BooksProxy() {
 		mapper = new ObjectMapper();
 		lastAccessedTime = -1L;
 		loadProperties();
 	}
 	
+	/** Loads the properies if <code>isbndb.properties</code> exists in the classpath */
 	private void loadProperties() {
 		try {
-			Properties props = new Properties();
-			props.load( getClass().getClassLoader().getResourceAsStream("isbndb.properties") );
-			developerKey = props.getProperty("developer.key").trim();
+			InputStream is = getClass().getClassLoader().getResourceAsStream("isbndb.properties");
 			
-			String waitInternalProperty = props.getProperty("wait.interval");
-			if (waitInternalProperty != null) {
-				waitInterval = Long.valueOf(waitInternalProperty.trim());
+			if (is != null) {
+				Properties props = new Properties();
+				props.load(is);
+				developerKey = props.getProperty("developer.key").trim();
+				
+				String waitInternalProperty = props.getProperty("wait.interval");
+				if (waitInternalProperty != null) {
+					waitInterval = Long.valueOf(waitInternalProperty.trim());
+				}
 			}
 		}
 		catch (IOException e) {
@@ -167,10 +195,12 @@ public final class BooksProxy {
 		}
 	}
 	
+	/** Parses the JSON returned from the URL */
 	public List<Book> parse(URL url) throws JsonParseException, JsonMappingException, IOException {
 		return mapper.readValue(url.openStream(),BooksResult.class).getData();
 	}
 
+	/** Checks for the last accessed time. And if it is less than the wait interval, the wait interval is slept */
 	private void checkElapsedTime() {
 		long sleepTime = waitInterval; // 1 second
 
