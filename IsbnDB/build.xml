@@ -4,7 +4,7 @@
 	<property name="app.name"		   value="isbndb"			/>
 	<property name="version"		   value="1.0.0"			/>
 	<property name="source.dir"        value="src" 			/>
-	<property name="class.dir"         value="bin" 	/>
+	<property name="class.dir"         value="target" 	/>
 	<property name="jarFile.location"  value="dist/${app.name}-${version}.jar" 	/>
 	<property name="library.dir"       value="../../library" 	/>
 
@@ -14,7 +14,7 @@
 	</target>
 
 	<target name="compile" depends="clean,init" description="compiles isbndb">
-		<javac destdir="${class.dir}" srcdir="${source.dir}" deprecation="true"	optimize="true" includeantruntime="false">
+		<javac destdir="${class.dir}" srcdir="${source.dir}" target="1.6" includeantruntime="false" verbose="false">
 			<classpath>
 				<pathelement location="${library.dir}/jackson-core.jar" />
 				<pathelement location="${library.dir}/jackson-annotations.jar" />
@@ -31,6 +31,6 @@
 
 	<target name="clean" description="removes all intermediate files">
 		<delete dir="dist" />
-		<delete dir="bin/**.*" />
+		<delete dir="${class.dir}" />
 	</target>
 </project>

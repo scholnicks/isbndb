@@ -1,0 +1,317 @@
+{
+   "index_searched" : "title",
+   "data" : [
+      {
+         "edition_info" : "(U.K. : hardcover : lg. print : alk. paper)",
+         "dewey_decimal" : "",
+         "title" : "Summer sisters",
+         "isbn10" : "0754012034",
+         "subject_ids" : [
+            "young_women_massachusetts_marthas_vineyard_fiction",
+            "marthas_vineyard_mass_fiction",
+            "female_friendship_fiction",
+            "bildungsromans",
+            "love_stories",
+            "large_type_books"
+         ],
+         "awards_text" : "",
+         "author_data" : [
+            {
+               "name" : "Blume, Judy",
+               "id" : "blume_judy"
+            }
+         ],
+         "isbn13" : "9780754012030",
+         "summary" : "",
+         "publisher_text" : "Thorndike, Me. : Thorndike Press ; 1998.",
+         "physical_description_text" : "441 p. (large print) ; 22 cm.",
+         "lcc_number" : "",
+         "dewey_normal" : "0",
+         "publisher_id" : "thorndike_press",
+         "book_id" : "summer_sisters_a01",
+         "notes" : "",
+         "urls_text" : "",
+         "title_long" : "",
+         "title_latin" : "Summer sisters",
+         "marc_enc_level" : "",
+         "publisher_name" : "Thorndike Press",
+         "language" : "eng"
+      },
+      {
+         "book_id" : "summer_sisters_a02",
+         "dewey_normal" : "0",
+         "publisher_id" : "thorndike_press",
+         "lcc_number" : "",
+         "notes" : "",
+         "urls_text" : "",
+         "marc_enc_level" : "",
+         "title_long" : "",
+         "title_latin" : "Summer sisters",
+         "publisher_name" : "Thorndike Press",
+         "language" : "eng",
+         "isbn13" : "9780786215362",
+         "summary" : "",
+         "publisher_text" : "Thorndike, Me. : Thorndike Press ; 1998.",
+         "physical_description_text" : "441 p. (large print) ; 22 cm.",
+         "author_data" : [
+            {
+               "name" : "Blume, Judy",
+               "id" : "blume_judy"
+            }
+         ],
+         "edition_info" : "(U.S. : hardcover : lg. print : alk. paper)",
+         "dewey_decimal" : "",
+         "title" : "Summer sisters",
+         "isbn10" : "0786215364",
+         "awards_text" : "",
+         "subject_ids" : [
+            "young_women_massachusetts_marthas_vineyard_fiction",
+            "marthas_vineyard_mass_fiction",
+            "female_friendship_fiction",
+            "bildungsromans",
+            "love_stories",
+            "large_type_books"
+         ]
+      },
+      {
+         "dewey_decimal" : "",
+         "edition_info" : "Paperback; 2003-05-27",
+         "title" : "Summer Sisters",
+         "isbn10" : "0385337663",
+         "awards_text" : "",
+         "subject_ids" : [],
+         "author_data" : [
+            {
+               "id" : "blume_judy",
+               "name" : "Blume, Judy"
+            }
+         ],
+         "summary" : "Judy Blume first won legions of fans with such young adult classics as Are You There God? It's Me, Margaret and Forever, in which she tackles the cultural hot button of teenage sexuality. In Summer Sisters, her third novel for adults, the author again explores the ramifications of love--and lust--on two friends. Initially, the differences between Caitlin Somers and Victoria Leonard (or \"Vix,\" as Caitlin christens her) draw them together: privileged Caitlin is wild and outspoken, beautiful but emotionally fragile, while working-class Vix is shy, reserved, and plain in comparison. After Caitlin selects Vix to accompany her to her father's home in Martha's Vineyard for the summer, the two become inextricably connected as \"summer sisters.\" On the Vineyard, Vix and Caitlin first find love, then sex--and lots of it. Yet Blume soon moves beyond hot fun in the summer sun, tracing the romantic and familial travails of the two from pre-adolescence to adulthood. Solid Vix evolves into Victoria, an equally solid, Harvard-educated, Manhattan public-relations exec. Unpredictable Caitlin opts out of college and travels to Europe, where she has a string of short-lived affairs with a series of intriguing (in every sense of the word) foreigners. It is only after she returns to the Vineyard that Caitlin does the unthinkable, forever changing both her friendship with Vix and their lives. Blume once again proves herself a master of the female psyche, and Summer Sisters is likely to entertain both her postadolescent and more mature readers.",
+         "isbn13" : "9780385337663",
+         "publisher_text" : "Delta",
+         "physical_description_text" : "416 pages",
+         "notes" : "",
+         "lcc_number" : "",
+         "publisher_id" : "delta",
+         "book_id" : "summer_sisters_a04",
+         "dewey_normal" : "0",
+         "title_latin" : "Summer Sisters",
+         "marc_enc_level" : "~",
+         "title_long" : "",
+         "urls_text" : "",
+         "language" : "",
+         "publisher_name" : "Delta"
+      },
+      {
+         "author_data" : [
+            {
+               "name" : "Blume, Judy",
+               "id" : "blume_judy"
+            }
+         ],
+         "title" : "Summer Sisters",
+         "isbn10" : "0440243750",
+         "awards_text" : "",
+         "subject_ids" : [],
+         "dewey_decimal" : "813",
+         "edition_info" : "Mass Market Paperback; 2006-07-25",
+         "title_latin" : "Summer Sisters",
+         "marc_enc_level" : "~",
+         "title_long" : "",
+         "urls_text" : "",
+         "publisher_name" : "Dell",
+         "language" : "",
+         "notes" : "",
+         "book_id" : "summer_sisters_a05",
+         "dewey_normal" : "813",
+         "publisher_id" : "dell",
+         "lcc_number" : "",
+         "physical_description_text" : "416 pages",
+         "summary" : "Judy Blume first won legions of fans with such young adult classics as Are You There God? It's Me, Margaret and Forever, in which she tackles the cultural hot button of teenage sexuality. In Summer Sisters, her third novel for adults, the author again explores the ramifications of love--and lust--on two friends. Initially, the differences between Caitlin Somers and Victoria Leonard (or \"Vix,\" as Caitlin christens her) draw them together: privileged Caitlin is wild and outspoken, beautiful but emotionally fragile, while working-class Vix is shy, reserved, and plain in comparison. After Caitlin selects Vix to accompany her to her father's home in Martha's Vineyard for the summer, the two become inextricably connected as \"summer sisters.\" On the Vineyard, Vix and Caitlin first find love, then sex--and lots of it. Yet Blume soon moves beyond hot fun in the summer sun, tracing the romantic and familial travails of the two from pre-adolescence to adulthood. Solid Vix evolves into Victoria, an equally solid, Harvard-educated, Manhattan public-relations exec. Unpredictable Caitlin opts out of college and travels to Europe, where she has a string of short-lived affairs with a series of intriguing (in every sense of the word) foreigners. It is only after she returns to the Vineyard that Caitlin does the unthinkable, forever changing both her friendship with Vix and their lives. Blume once again proves herself a master of the female psyche, and Summer Sisters is likely to entertain both her postadolescent and more mature readers.",
+         "isbn13" : "9780440243755",
+         "publisher_text" : "Dell"
+      },
+      {
+         "dewey_decimal" : "",
+         "edition_info" : "Paperback; 1999",
+         "awards_text" : "",
+         "subject_ids" : [],
+         "isbn10" : "0330371606",
+         "title" : "SUMMER SISTERS",
+         "author_data" : [
+            {
+               "id" : "blume_judy",
+               "name" : "Blume, Judy"
+            }
+         ],
+         "publisher_text" : "DELL PUBLISHING",
+         "summary" : "Judy Blume first won legions of fans with such young adult classics as Are You There God? It's Me, Margaret and Forever, in which she tackles the cultural hot button of teenage sexuality. In Summer Sisters, her third novel for adults, the author again explores the ramifications of love--and lust--on two friends. Initially, the differences between Caitlin Somers and Victoria Leonard (or \"Vix,\" as Caitlin christens her) draw them together: privileged Caitlin is wild and outspoken, beautiful but emotionally fragile, while working-class Vix is shy, reserved, and plain in comparison. After Caitlin selects Vix to accompany her to her father's home in Martha's Vineyard for the summer, the two become inextricably connected as \"summer sisters.\" On the Vineyard, Vix and Caitlin first find love, then sex--and lots of it. Yet Blume soon moves beyond hot fun in the summer sun, tracing the romantic and familial travails of the two from pre-adolescence to adulthood. Solid Vix evolves into Victoria, an equally solid, Harvard-educated, Manhattan public-relations exec. Unpredictable Caitlin opts out of college and travels to Europe, where she has a string of short-lived affairs with a series of intriguing (in every sense of the word) foreigners. It is only after she returns to the Vineyard that Caitlin does the unthinkable, forever changing both her friendship with Vix and their lives. Blume once again proves herself a master of the female psyche, and Summer Sisters is likely to entertain both her postadolescent and more mature readers.",
+         "isbn13" : "9780330371605",
+         "physical_description_text" : "384 pages",
+         "notes" : "",
+         "book_id" : "summer_sisters_a06",
+         "dewey_normal" : "0",
+         "lcc_number" : "",
+         "publisher_id" : "dell_publishing",
+         "language" : "",
+         "publisher_name" : "DELL PUBLISHING",
+         "marc_enc_level" : "~",
+         "title_long" : "",
+         "title_latin" : "SUMMER SISTERS",
+         "urls_text" : ""
+      },
+      {
+         "book_id" : "summer_sisters_a08",
+         "dewey_normal" : "813.54",
+         "lcc_number" : "",
+         "publisher_id" : "simon_schuster_audio",
+         "notes" : "",
+         "urls_text" : "",
+         "marc_enc_level" : "~",
+         "title_long" : "",
+         "title_latin" : "Summer Sisters",
+         "language" : "",
+         "publisher_name" : "Simon & Schuster Audio",
+         "isbn13" : "9780671582456",
+         "summary" : "Judy Blume's Summer Sisters is ably brought to life through a spirited reading by Annabeth Gish (Mystic Pizza, Shag.) Her fresh, youthful voice captures the essence of Vix and Caitlin, two preadolescent classmates who forge a powerful friendship while summering together on Martha's Vineyard. As their summers together continue, they discover boys, establish crushes, then move on to the more serious business of love and sex. With each new season their relationship becomes more complicated, sometimes verging on destructive. This abridgement leaves Vix and Caitlin's story fully intact, but family backgrounds and some minor players are glossed over. Gish presents a fairly straightforward reading, with no attempt to take on male characters, accents, or otherwise assign unique voices to each person. Instead, she chooses to change inflection, intonation, and attitude to reflect their words and thoughts. Gish's narration is a pleasure to listen to and brings a new dimension to Blume's story of two friends who have so much in common, yet are nothing alike. (Running time: three hours, two cassettes)",
+         "publisher_text" : "Simon & Schuster Audio",
+         "physical_description_text" : "",
+         "author_data" : [
+            {
+               "id" : "blume_judy",
+               "name" : "Blume, Judy"
+            }
+         ],
+         "edition_info" : "Audio Cassette; 1998-07-01",
+         "dewey_decimal" : "813.54",
+         "title" : "Summer Sisters",
+         "isbn10" : "0671582453",
+         "subject_ids" : [],
+         "awards_text" : ""
+      },
+      {
+         "marc_enc_level" : "~",
+         "title_long" : "",
+         "title_latin" : "Summer Sisters",
+         "urls_text" : "",
+         "language" : "",
+         "publisher_name" : "Bantam Doubleday Dell",
+         "notes" : "",
+         "book_id" : "summer_sisters_a07",
+         "lcc_number" : "",
+         "publisher_id" : "bantam_doubleday_dell",
+         "dewey_normal" : "0",
+         "physical_description_text" : "562 pages",
+         "summary" : "Judy Blume first won legions of fans with such young adult classics as Are You There God? It's Me, Margaret and Forever, in which she tackles the cultural hot button of teenage sexuality. In Summer Sisters, her third novel for adults, the author again explores the ramifications of love--and lust--on two friends. Initially, the differences between Caitlin Somers and Victoria Leonard (or \"Vix,\" as Caitlin christens her) draw them together: privileged Caitlin is wild and outspoken, beautiful but emotionally fragile, while working-class Vix is shy, reserved, and plain in comparison. After Caitlin selects Vix to accompany her to her father's home in Martha's Vineyard for the summer, the two become inextricably connected as \"summer sisters.\" On the Vineyard, Vix and Caitlin first find love, then sex--and lots of it. Yet Blume soon moves beyond hot fun in the summer sun, tracing the romantic and familial travails of the two from pre-adolescence to adulthood. Solid Vix evolves into Victoria, an equally solid, Harvard-educated, Manhattan public-relations exec. Unpredictable Caitlin opts out of college and travels to Europe, where she has a string of short-lived affairs with a series of intriguing (in every sense of the word) foreigners. It is only after she returns to the Vineyard that Caitlin does the unthinkable, forever changing both her friendship with Vix and their lives. Blume once again proves herself a master of the female psyche, and Summer Sisters is likely to entertain both her postadolescent and more mature readers.",
+         "isbn13" : "9781568657981",
+         "publisher_text" : "Bantam Doubleday Dell",
+         "author_data" : [
+            {
+               "id" : "blume_judy",
+               "name" : "Blume, Judy"
+            }
+         ],
+         "title" : "Summer Sisters",
+         "isbn10" : "1568657986",
+         "awards_text" : "",
+         "subject_ids" : [],
+         "dewey_decimal" : "",
+         "edition_info" : "Hardcover; 1998"
+      },
+      {
+         "urls_text" : "",
+         "title_latin" : "Summer Sisters",
+         "marc_enc_level" : "~",
+         "title_long" : "",
+         "publisher_name" : "Delacorte Press",
+         "language" : "",
+         "dewey_normal" : "0",
+         "lcc_number" : "",
+         "book_id" : "summer_sisters_a13",
+         "publisher_id" : "delacorte_press",
+         "notes" : "",
+         "physical_description_text" : "1.6 lb; 416 pages",
+         "isbn13" : "9780333740675",
+         "summary" : "",
+         "publisher_text" : "Delacorte Press",
+         "author_data" : [
+            {
+               "id" : "blume_judy",
+               "name" : "Blume, Judy"
+            }
+         ],
+         "title" : "Summer Sisters",
+         "awards_text" : "",
+         "isbn10" : "033374067X",
+         "subject_ids" : [
+            "literature_fiction_contemporary",
+            "literature_fiction_general_general"
+         ],
+         "edition_info" : "Hardcover; 1998-01-01",
+         "dewey_decimal" : ""
+      },
+      {
+         "summary" : "",
+         "isbn13" : "9780333750995",
+         "publisher_text" : "See notes",
+         "physical_description_text" : "1.3 lb; 416 pages",
+         "notes" : "",
+         "book_id" : "summer_sisters_a14",
+         "dewey_normal" : "0",
+         "lcc_number" : "",
+         "publisher_id" : "see_notes",
+         "marc_enc_level" : "~",
+         "title_long" : "",
+         "title_latin" : "Summer Sisters",
+         "urls_text" : "",
+         "language" : "",
+         "publisher_name" : "See notes",
+         "dewey_decimal" : "",
+         "edition_info" : "Paperback; 1998",
+         "title" : "Summer Sisters",
+         "subject_ids" : [
+            "literature_fiction_contemporary"
+         ],
+         "awards_text" : "",
+         "isbn10" : "0333750993",
+         "author_data" : [
+            {
+               "id" : "blume_judy",
+               "name" : "Blume, Judy"
+            }
+         ]
+      },
+      {
+         "author_data" : [
+            {
+               "name" : "Blume, Judy",
+               "id" : "blume_judy"
+            }
+         ],
+         "awards_text" : "",
+         "isbn10" : "0751542733",
+         "subject_ids" : [],
+         "title" : "Summer sisters",
+         "edition_info" : "(pbk.)",
+         "dewey_decimal" : "",
+         "language" : "eng",
+         "publisher_name" : "Sphere",
+         "urls_text" : "",
+         "title_long" : "",
+         "marc_enc_level" : "u",
+         "title_latin" : "Summer sisters",
+         "lcc_number" : "",
+         "dewey_normal" : "0",
+         "book_id" : "summer_sisters_a12",
+         "publisher_id" : "sphere",
+         "notes" : "",
+         "physical_description_text" : "384p 198x126.",
+         "publisher_text" : "United Kingdom, Sphere, 2009.",
+         "isbn13" : "9780751542738",
+         "summary" : "'For a moment it's as if they've never been apart. They're still Vixen and Cassandra, summer sisters forever. The rest is a mistake, a crazy joke.' Vix Leonard is twelve when she meets dazzling, reckless Caitlin Somers. Invited to spend holidays on Martha's Vineyard with Caitlin and her eccentric, mysterious family, Vix is welcomed into a life totally unlike her own. As days of bold adventure give way to nights of shy discovery, she and Caitlin come together in the complications of growing up; the refuge of belonging; the pact to Never Be Ordinary ...Until one devastating summer when a local boy changes everything. Years later life has driven them apart, but the bruise of their friendship remains. When Caitlin begs Vix to return to the Vineyard for her wedding, Vix knows she will go. She wants to understand what happened that last shattering summer ? and why her best friend still has the power to break her heart."
+      }
+   ],
+   "current_page" : 1,
+   "page_count" : 2,
+   "result_count" : 19
+}
