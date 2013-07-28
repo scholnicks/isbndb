@@ -15,7 +15,8 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public final class Book {
 	@JsonProperty("title_latin")               private String title;
-	@JsonProperty("isbn13")                    private String isbn;
+	@JsonProperty("isbn13")                    private String isbn13;
+	@JsonProperty("isbn10")                    private String isbn10;
 	@JsonProperty("physical_description_text") private String physicalDescription;
 	@JsonProperty("publisher_name")            private String publisher;
 	@JsonProperty("language")                  private String language;
@@ -36,12 +37,12 @@ public final class Book {
 		this.title = title;
 	}
 
-	public String getIsbn() {
-		return isbn;
+	public String getIsbn13() {
+		return isbn13;
 	}
 
-	public void setIsbn(String isbn) {
-		this.isbn = isbn;
+	public void setIsbn13(String isbn) {
+		this.isbn13 = isbn;
 	}
 	
     public List<Author> getAuthors() {
@@ -96,10 +97,6 @@ public final class Book {
 		return edition;
 	}
 
-	public void setEdition(String edition) {
-		this.edition = edition;
-	}
-
 	public String getDeweyNumber() {
 		return deweyNumber;
 	}
@@ -122,6 +119,14 @@ public final class Book {
 
 	public void setSubjectIds(List<String> subjectIds) {
 		this.subjectIds = subjectIds;
+	}
+
+	public String getIsbn10() {
+		return isbn10;
+	}
+
+	public void setIsbn10(String isbn10) {
+		this.isbn10 = isbn10;
 	}
 
 	/** {@inheritDoc} */

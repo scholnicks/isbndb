@@ -115,7 +115,9 @@ public final class BooksProxy {
 		checkElapsedTime();
 		
 		try {
+			title = title.replaceAll(" ","_");
 			URI uri = new URI("http","isbndb.com","/api/v2/json/" + developerKey + "/books", "q=" + title,null);
+			log.debug("Getting JSON from " + uri);
 			return parse( uri.toURL() );
 		} 
 		catch (URISyntaxException e) {
