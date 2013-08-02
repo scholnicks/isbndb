@@ -24,9 +24,14 @@ List<Book> books = BooksProxy.getInstance().getBooks("bag of bones");
 
 net.scholnick.isbndb.BooksProxy must know your isbn developer API key. Two methods:
 
+```java
 BooksProxy.getInstance().setDeveloperKey("YOUR_KEY"); // before any getBooks() calls
+```
 
 Create isbndb.properties and store in your classpath
 
+```java
 developer.key=YOUR_KEY
+```
+
 
