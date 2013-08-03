@@ -5,32 +5,62 @@
 	<property name="version"		   value="1.0.0"			/>
 	<property name="source.dir"        value="src" 			/>
 	<property name="class.dir"         value="target" 	/>
+	<property name="doc.dir"         value="api-doc" 	/>
 	<property name="jarFile.location"  value="dist/${app.name}-${version}.jar" 	/>
 	<property name="library.dir"       value="../../library" 	/>
 
 	<target name="init" description="initilization">
 		<mkdir dir="${class.dir}" />
+		<mkdir dir="${doc.dir}" />
 		<mkdir dir="dist" />
 	</target>
 
+    <path id="class.path">
+		<pathelement location="${library.dir}/jackson-core.jar" />
+		<pathelement location="${library.dir}/jackson-annotations.jar" />
+		<pathelement location="${library.dir}/jackson-databind.jar" />
+		<pathelement location="${library.dir}/log4j.jar" />
+		<pathelement location="${library.dir}/commons-lang-2.5.jar" />
+	</path>
+    	
 	<target name="compile" depends="clean,init" description="compiles isbndb">
-		<javac destdir="${class.dir}" srcdir="${source.dir}" target="1.6" includeantruntime="false" verbose="false">
-			<classpath>
-				<pathelement location="${library.dir}/jackson-core.jar" />
-				<pathelement location="${library.dir}/jackson-annotations.jar" />
-				<pathelement location="${library.dir}/jackson-databind.jar" />
-				<pathelement location="${library.dir}/log4j.jar" />
-				<pathelement location="${library.dir}/commons-lang-2.5.jar" />
-			</classpath>
-		</javac>
+		<javac destdir="${class.dir}" srcdir="${source.dir}" target="1.6" 
+			   includeantruntime="false" verbose="false" classpathref="class.path" />
 	</target>
 	
 	<target name="jar" depends="compile" description="create the JAR">
 		<jar  destfile="${jarFile.location}" basedir="${class.dir}" compress="true" />
 	</target>
 
+    <path id="complete.class.path">
+		<pathelement location="${library.dir}/jackson-core.jar" />
+		<pathelement location="${library.dir}/jackson-annotations.jar" />
+		<pathelement location="${library.dir}/jackson-databind.jar" />
+		<pathelement location="${library.dir}/log4j.jar" />
+		<pathelement location="${class.dir}" />
+	</path>
+    	
+    <target name="doc" description="Create the JavaDoc" depends="compile">
+    	<javadoc destdir="${doc.dir}" author="true" version="true" 
+    	    use="true" windowtitle="isbndb Library" private="false" verbose="false"
+    	>
+            <classpath refid="complete.class.path" />
+    	    <packageset dir="${source.dir}" defaultexcludes="yes">
+    	        <include name="**/**"/>
+    	    </packageset>
+
+    	    <doctitle><![CDATA[<h1>isbndb Library</h1>]]></doctitle>
+
+     		<link href="http://java.sun.com/javase/6/docs/api/"       />
+    		<link href="http://logging.apache.org/log4j/1.2/apidocs/" />
+			<link href="http://commons.apache.org/proper/commons-lang/javadocs/api-2.6/"  />
+    		<link href="http://jackson.codehaus.org/1.8.4/javadoc/"   />
+  	  </javadoc>
+    </target>
+    	
 	<target name="clean" description="removes all intermediate files">
 		<delete dir="dist" />
 		<delete dir="${class.dir}" />
+		<delete dir="${doc.dir}" />
 	</target>
 </project>

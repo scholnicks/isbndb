@@ -17,7 +17,7 @@ import org.junit.Test;
  * 
  * @author Steve Scholnick <steve@scholnick.net>
  */
-public final class BookTestCase {
+public final class BooksProxyTestCase {
 	@Test
 	public void singleBookTitle() throws IOException {
 		List<Book> books = BooksProxy.getInstance().parse( getURL("single_book.json") );
@@ -70,6 +70,20 @@ public final class BookTestCase {
 	public void downloadBookWithSpacesInTitle() throws Exception {
 		List<Book> books = BooksProxy.getInstance().getBooks("bag of bones");
 		assertEquals(10, books.size());
+	}
+
+	@Test
+	public void minimumWaitIntervalUnder() throws Exception {
+		BooksProxy.getInstance().setWaitInterval(0);
+		assertEquals(1000, BooksProxy.getInstance().getWaitInterval());
+		BooksProxy.getInstance().setWaitInterval(1000);
+	}
+
+	@Test
+	public void minimumWaitIntervalOver() throws Exception {
+		BooksProxy.getInstance().setWaitInterval(2500);
+		assertEquals(2500, BooksProxy.getInstance().getWaitInterval());
+		BooksProxy.getInstance().setWaitInterval(1000);
 	}
 
 	private URL getURL(String fileName) throws IOException {

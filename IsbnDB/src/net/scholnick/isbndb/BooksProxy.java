@@ -26,10 +26,12 @@ import com.fasterxml.jackson.databind.ObjectMapper;
  */
 public final class BooksProxy {
     private static final Logger log = Logger.getLogger(BooksProxy.class);
+    private static final int MINIMUM_WAIT_INTERVAL = 1000;
     
 	private final ObjectMapper mapper;
-	private String       developerKey;
-	private Long         waitInterval = 1000L;
+	
+	private String developerKey;
+	private int    waitInterval = MINIMUM_WAIT_INTERVAL;
 	
 	private static final BooksProxy INSTANCE = new BooksProxy();
 
@@ -50,14 +52,15 @@ public final class BooksProxy {
 		this.developerKey = developerKey;
 	}
 
-	/** Returns the wait interval */
-	public Long getWaitInterval() {
+	/** Returns the wait interval between calls to isbndb */
+	public int getWaitInterval() {
 		return waitInterval;
 	}
 
-	/** Sets the wait interval */
-	public void setWaitInterval(Long waitInterval) {
+	/** Sets the wait interval between calls to isbndb */
+	public void setWaitInterval(int waitInterval) {
 		this.waitInterval = waitInterval;
+		validateWaitInterval();
 	}
 
 	/**
@@ -176,6 +179,14 @@ public final class BooksProxy {
 		loadProperties();
 	}
 	
+	/** Ensures the <code>waitInterval</code> cannot be less that the minimum */
+	private void validateWaitInterval() {
+		if (waitInterval < MINIMUM_WAIT_INTERVAL) {
+			waitInterval = MINIMUM_WAIT_INTERVAL;
+			log.warn("Wait interval cannot be less than the minimum wait interval of " + MINIMUM_WAIT_INTERVAL);
+		}
+	}
+	
 	/** Loads the properies if <code>isbndb.properties</code> exists in the classpath */
 	private void loadProperties() {
 		try {
@@ -188,7 +199,8 @@ public final class BooksProxy {
 				
 				String waitInternalProperty = props.getProperty("wait.interval");
 				if (waitInternalProperty != null) {
-					waitInterval = Long.valueOf(waitInternalProperty.trim());
+					waitInterval = Integer.valueOf(waitInternalProperty.trim());
+					validateWaitInterval();
 				}
 			}
 		}
