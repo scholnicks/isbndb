@@ -14,19 +14,14 @@ isbndb library is dependent on the following libraries:
 * [log4j](http://logging.apache.org/log4j/1.2/)
 
 ```java
-
-import net.scholnick.isbndb.BooksProxy;
-import net.scholnick.isbndb.domain.Author;
-import net.scholnick.isbndb.domain.Book;
-
 // all books with virus in the title
-List(Book) books = BooksProxy.getInstance().getBooks("virus");
+List<Book> books = BooksProxy.getInstance().getBooks("virus");
 
 // exact book by ISBN
 Book book = BooksProxy.getInstance().getBookByISBN("9780684853505");
 
 // Title Search
-List(Book) books = BooksProxy.getInstance().getBooks("bag of bones");
+List<Book> books = BooksProxy.getInstance().getBooks("bag of bones");
 
 ```
 
