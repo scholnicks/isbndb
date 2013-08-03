@@ -3,7 +3,7 @@ isbndb
 
 Java Library for interacting with the isbndb REST endpoints. There is a default 1 second interval betweeen calls, which is enforced as a minimum.
 
-* Download : [hhttp://www.scholnick.net/isbndb/isbndb.jar](http://www.scholnick.net/isbndb/isbndb-1.0.0.jar)
+* Download : [http://www.scholnick.net/isbndb/isbndb.jar](http://www.scholnick.net/isbndb/isbndb-1.0.0.jar)
 * JavaDoc  : <http://www.scholnick.net/isbndb/api-doc>
 * License  : <http://www.scholnick.net/isbndb/license.txt>
 
@@ -14,6 +14,13 @@ isbndb library is dependent on the following libraries:
 * [log4j](http://logging.apache.org/log4j/1.2/)
 
 ```java
+
+import java.util.List;
+import net.scholnick.isbndb.BooksProxy;
+import net.scholnick.isbndb.domain.Author;
+import net.scholnick.isbndb.domain.Book;
+
+
 // all books with virus in the title
 List<Book> books = BooksProxy.getInstance().getBooks("virus");
 
