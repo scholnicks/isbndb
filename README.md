@@ -3,13 +3,13 @@ isbndb
 
 Java Library for interacting with the isbndb REST endpoints. There is a default 1 second interval betweeen calls, which is enforced as a minimum.
 
-* Download from : [hhttp://www.scholnick.net/isbndb/isbndb.jar](http://www.scholnick.net/isbndb/isbndb-1.0.0.jar)
-* JavaDoc : <http://www.scholnick.net/isbndb/api-doc>
-* License : <http://www.scholnick.net/isbndb/license.txt>
+* Download : [hhttp://www.scholnick.net/isbndb/isbndb.jar](http://www.scholnick.net/isbndb/isbndb-1.0.0.jar)
+* JavaDoc  : <http://www.scholnick.net/isbndb/api-doc>
+* License  : <http://www.scholnick.net/isbndb/license.txt>
 
 isbndb library is dependent on the following libraries:
 
-* [Jackson](http://jackson.codehaus.org/)
+* [Jackson Java JSON-processor](http://jackson.codehaus.org/)
 * [Commons Lang](http://commons.apache.org/proper/commons-lang/)
 * [log4j](http://logging.apache.org/log4j/1.2/)
 
@@ -20,7 +20,7 @@ List<Book> books = BooksProxy.getInstance().getBooks("virus");
 // exact book by ISBN
 Book book = BooksProxy.getInstance().getBookByISBN("9780684853505");
 
-// Title Search
+// Title with spaces (BooksProxy automatically handles the spaces)
 List<Book> books = BooksProxy.getInstance().getBooks("bag of bones");
 
 ```
