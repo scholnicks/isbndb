@@ -31,7 +31,7 @@ net.scholnick.isbndb.BooksProxy **must** know your isbn developer API key. Two m
 BooksProxy.getInstance().setDeveloperKey("YOUR_KEY"); // before any getBooks() calls
 ```
 
-Create isbndb.properties and store in your classpath
+Create isbndb.properties and store it in your classpath
 
 ```java
 developer.key=YOUR_KEY
