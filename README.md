@@ -3,7 +3,7 @@ isbndb
 
 Java Library for interacting with the isbndb REST endpoints. There is a default 1 second interval betweeen calls, which is enforced as a minimum.
 
-* Download : [http://www.scholnick.net/isbndb/isbndb.jar](http://www.scholnick.net/isbndb/isbndb-1.0.0.jar)
+* Download : [http://www.scholnick.net/isbndb/isbndb.jar](http://www.scholnick.net/isbndb/isbndb-1.0.1.jar)
 * JavaDoc  : <http://www.scholnick.net/isbndb/api-doc>
 * License  : <http://www.scholnick.net/isbndb/license.txt>
 
