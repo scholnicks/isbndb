@@ -24,7 +24,7 @@
 	</path>
     	
 	<target name="compile" depends="clean,init" description="compiles isbndb">
-		<javac destdir="${class.dir}" srcdir="${source.dir}" target="1.6" 
+		<javac destdir="${class.dir}" srcdir="${source.dir}" target="1.6" source="1.6"
 			   includeantruntime="false" verbose="false" classpathref="class.path" />
 	</target>
 	
