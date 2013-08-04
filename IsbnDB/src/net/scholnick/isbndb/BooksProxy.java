@@ -2,6 +2,7 @@ package net.scholnick.isbndb;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URI;
 import java.net.URISyntaxException;
@@ -26,7 +27,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
  */
 public final class BooksProxy {
     private static final Logger log = Logger.getLogger(BooksProxy.class);
-    private static final int MINIMUM_WAIT_INTERVAL = 1000;
     
 	private final ObjectMapper mapper;
 	
@@ -36,6 +36,9 @@ public final class BooksProxy {
 	private static final BooksProxy INSTANCE = new BooksProxy();
 
 	private long lastAccessedTime;
+	
+    private static final int MINIMUM_WAIT_INTERVAL = 1000;
+	private static final int TIMEOUT = 5 * 1000;
 	
 	/** Single Access Point */
 	public static BooksProxy getInstance() {
@@ -211,7 +214,24 @@ public final class BooksProxy {
 	
 	/** Parses the JSON returned from the URL */
 	public List<Book> parse(URL url) throws JsonParseException, JsonMappingException, IOException {
-		return mapper.readValue(url.openStream(),BooksResult.class).getData();
+		HttpURLConnection huc = (HttpURLConnection) url.openConnection();
+		HttpURLConnection.setFollowRedirects(false);
+		huc.setConnectTimeout(TIMEOUT);
+		huc.setReadTimeout(TIMEOUT);
+		huc.setRequestMethod("GET");
+		huc.connect();
+
+		InputStream is = null;
+		
+		try {
+			is = huc.getInputStream();
+			return mapper.readValue(is,BooksResult.class).getData();
+		}
+		finally {
+			if (is != null) {
+				try { is.close(); } catch (IOException e) { /* ignore */ }
+			}
+		}
 	}
 
 	/** Checks for the last accessed time. And if it is less than the wait interval, the wait interval is slept */

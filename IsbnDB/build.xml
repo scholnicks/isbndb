@@ -2,7 +2,7 @@
 
 <project name="isbndb" default="jar" basedir=".">
 	<property name="app.name"		   value="isbndb"			/>
-	<property name="version"		   value="1.0.0"			/>
+	<property name="version"		   value="1.0.1"			/>
 	<property name="source.dir"        value="src" 			/>
 	<property name="class.dir"         value="target" 	/>
 	<property name="doc.dir"         value="api-doc" 	/>
