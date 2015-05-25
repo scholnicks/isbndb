@@ -3,7 +3,7 @@ package net.scholnick.isbndb;
 /**
  * RESTException can be thrown by any {@link BooksProxy} method that performs a REST call.
  * 
- * @author Steve Scholnick <steve@scholnick.net>
+ * @author Steve Scholnick <scholnicks@gmail.com>
  */
 public final class RESTException extends RuntimeException {
 	private static final long serialVersionUID = 6746233809715504263L;

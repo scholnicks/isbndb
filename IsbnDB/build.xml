@@ -2,7 +2,7 @@
 
 <project name="isbndb" default="jar" basedir=".">
 	<property name="app.name"		   value="isbndb"			/>
-	<property name="version"		   value="1.0.1"			/>
+	<property name="version"		   value="1.0.2"			/>
 	<property name="source.dir"        value="src" 			/>
 	<property name="class.dir"         value="target" 	/>
 	<property name="doc.dir"         value="api-doc" 	/>
@@ -24,7 +24,7 @@
 	</path>
     	
 	<target name="compile" depends="clean,init" description="compiles isbndb">
-		<javac destdir="${class.dir}" srcdir="${source.dir}" target="1.6" source="1.6"
+		<javac destdir="${class.dir}" srcdir="${source.dir}" target="1.8" source="1.8"
 			   includeantruntime="false" verbose="false" classpathref="class.path" />
 	</target>
 	

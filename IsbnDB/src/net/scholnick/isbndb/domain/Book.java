@@ -10,7 +10,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 /**
  * Book is a single instance of book data
  * 
- * @author Steve Scholnick <steve@scholnick.net>
+ * @author Steve Scholnick <scholnicks@gmail.com>
  */
 @JsonIgnoreProperties(ignoreUnknown = true)
 public final class Book {

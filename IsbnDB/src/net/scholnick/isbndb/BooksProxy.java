@@ -3,7 +3,6 @@ package net.scholnick.isbndb;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.URL;
@@ -23,7 +22,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
  * BooksProxy handles all interactions with the isbndb.com REST API. Queries to isbndb are spaced out by waitInterval, 
  * which defaults to 1 second. 
  * 
- * @author Steve Scholnick <steve@scholnick.net>
+ * @author Steve Scholnick <scholnicks@gmail.com>
  */
 public final class BooksProxy {
     private static final Logger log = Logger.getLogger(BooksProxy.class);
@@ -93,19 +92,7 @@ public final class BooksProxy {
 			uri = new URI("http","isbndb.com","/api/v2/json/" + developerKey + "/books", "q=" + key + "&i=" + searchField,null);
 			return parse( uri.toURL() );
 		} 
-		catch (URISyntaxException e) {
-			throw new RESTException("Unable to parse JSON",e);
-		} 
-		catch (JsonParseException e) {
-			throw new RESTException("Unable to parse JSON",e);
-		} 
-		catch (JsonMappingException e) {
-			throw new RESTException("Unable to parse JSON",e);
-		} 
-		catch (MalformedURLException e) {
-			throw new RESTException("Unable to parse JSON",e);
-		} 
-		catch (IOException e) {
+		catch (URISyntaxException | IOException e) {
 			throw new RESTException("Unable to parse JSON",e);
 		}
 	}
@@ -126,19 +113,7 @@ public final class BooksProxy {
 			log.debug("Getting JSON from " + uri);
 			return parse( uri.toURL() );
 		} 
-		catch (URISyntaxException e) {
-			throw new RESTException("Unable to parse JSON",e);
-		} 
-		catch (JsonParseException e) {
-			throw new RESTException("Unable to parse JSON",e);
-		} 
-		catch (JsonMappingException e) {
-			throw new RESTException("Unable to parse JSON",e);
-		} 
-		catch (MalformedURLException e) {
-			throw new RESTException("Unable to parse JSON",e);
-		} 
-		catch (IOException e) {
+		catch (URISyntaxException | IOException e) {
 			throw new RESTException("Unable to parse JSON",e);
 		}
 	}
@@ -158,19 +133,7 @@ public final class BooksProxy {
 			List<Book> results = parse( uri.toURL() );
 			return results.isEmpty() ? null : results.get(0);
 		} 
-		catch (URISyntaxException e) {
-			throw new RESTException("Unable to parse JSON",e);
-		} 
-		catch (JsonParseException e) {
-			throw new RESTException("Unable to parse JSON",e);
-		} 
-		catch (JsonMappingException e) {
-			throw new RESTException("Unable to parse JSON",e);
-		} 
-		catch (MalformedURLException e) {
-			throw new RESTException("Unable to parse JSON",e);
-		} 
-		catch (IOException e) {
+		catch (URISyntaxException | IOException e) {
 			throw new RESTException("Unable to parse JSON",e);
 		}
 	}
@@ -221,16 +184,8 @@ public final class BooksProxy {
 		huc.setRequestMethod("GET");
 		huc.connect();
 
-		InputStream is = null;
-		
-		try {
-			is = huc.getInputStream();
+		try (InputStream is = huc.getInputStream()){
 			return mapper.readValue(is,BooksResult.class).getData();
-		}
-		finally {
-			if (is != null) {
-				try { is.close(); } catch (IOException e) { /* ignore */ }
-			}
 		}
 	}
 

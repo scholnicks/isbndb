@@ -5,7 +5,7 @@ import org.apache.commons.lang.builder.ToStringBuilder;
 /**
  * Author of a book
  * 
- * @author Steve Scholnick <steve@scholnick.net>
+ * @author Steve Scholnick <scholnicks@gmail.com>
  */
 public final class Author {
 	private String id;

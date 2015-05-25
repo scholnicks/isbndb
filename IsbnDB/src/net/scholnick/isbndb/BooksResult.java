@@ -11,9 +11,9 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 /**
  * BooksResult holds all of the data returned by the REST call
  * 
- * @author Steve Scholnick <steve@scholnick.net>
+ * @author Steve Scholnick <scholnicks@gmail.com>
  */
-@JsonIgnoreProperties(ignoreUnknown = true)
+@JsonIgnoreProperties(ignoreUnknown=true)
 final class BooksResult {
 	private List<Book> data;
 
