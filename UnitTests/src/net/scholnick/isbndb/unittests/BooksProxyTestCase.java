@@ -15,7 +15,7 @@ import org.junit.Test;
 /**
  * UnitTests
  * 
- * @author Steve Scholnick <steve@scholnick.net>
+ * @author Steve Scholnick <scholnicks@gmail.com>
  */
 public final class BooksProxyTestCase {
 	@Test
